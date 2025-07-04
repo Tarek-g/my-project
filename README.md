@@ -14,6 +14,7 @@
 ```bash
 wrangler publish
 ```
+يعتمد النشر على الملف `worker.js` كنقطة الدخول، حيث يعيد جلب الأصول من مجلد `public/`.
 
 ## النشر على Cloudflare Pages
 
